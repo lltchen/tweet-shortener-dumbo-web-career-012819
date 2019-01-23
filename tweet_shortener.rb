@@ -1,6 +1,6 @@
 def dictionary
 
-:dic =>  {
+{:dic =>  {
     "hello" => "hi",
     "to" => "2",
     "two" => "2",
@@ -11,7 +11,7 @@ def dictionary
     "you" => "u",
     "at" => "@",
     "and" => "&"
-  }
+  }}
 
 end
 
