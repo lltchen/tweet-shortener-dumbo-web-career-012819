@@ -17,8 +17,8 @@ end
 
 def word_substituter(tweet_one)
   tweet = tweet_one.split
-    tweet.collect do |words|
-      :dic.collect  do |keys,value|
+    tweet.each do |words|
+      :dic.each  do |keys,value|
           if keys.include?(words)
             words.gsub(words,value)
           else
