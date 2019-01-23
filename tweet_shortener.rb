@@ -11,17 +11,6 @@ def dictionary
     "you" => "u",
     "at" => "@",
     "and" => "&"
-  }}
+  }]
 
-end
-
-def word_substituter(tweet_one)
-  tweet = tweet_one.split
-    tweet.each do |words|
-      :dic.each  do |keys,value|
-
-            return "not working"
-        
-      end
-    end
 end
